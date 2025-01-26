@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Login = () => {
   return (
     <>
@@ -37,6 +39,15 @@ const Login = () => {
                 Login
               </button>
             </div>
+            <Link
+              style={{
+                color: 'white',
+                marginLeft: '30rem',
+              }}
+              to='/register'
+            >
+              <p>Register New User</p>
+            </Link>
           </form>
         </div>
 
