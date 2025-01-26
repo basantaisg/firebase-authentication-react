@@ -1,5 +1,11 @@
 const Login = () => {
-  return <div>Login</div>;
+  return (
+    <>
+      <div className='container'>
+        <h1>React Firebase Authentication</h1>
+      </div>
+    </>
+  );
 };
 
 export default Login;

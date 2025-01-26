@@ -1,6 +1,14 @@
+import Register from './components/Register';
+import Login from './components/Login';
+import Home from './components/Home';
 import './App.css';
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <Login />
+    </>
+  );
 };
 
 export default App;
